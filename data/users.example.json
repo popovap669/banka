@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "user-1711111111111",
+      "fullName": "Иван Иванов",
+      "phone": "+7 900 000-00-00",
+      "email": "ivan@example.com",
+      "login": "ivan",
+      "password": "123456",
+      "purchases": [
+        {
+          "id": "ORD-1711111111111",
+          "createdAt": "2026-04-21T12:00:00.000Z",
+          "items": [
+            {
+              "id": 1,
+              "name": "Аромасвеча в граненом стакане",
+              "price": 1200,
+              "image": "img/product1.jpg",
+              "description": "Изящная свеча в гранёном стекле с тёплым мягким ароматом."
+            }
+          ],
+          "total": 1200
+        }
+      ]
+    }
+  ]
+}
