@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banka Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+    <header class="container site-header"> 
+      <a class="logo" href="index.html">Banka Home</a>
+      <nav class="site-nav" id="site-nav">
+        <ul>
+          <li class="active"><a href="index.html">Главная</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="index.html#about">О нас</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="profile.html" data-profile-link-label>Профиль</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span><span></span>
+        </button>
+        <a class="header-cart" href="cart.html" aria-label="Перейти в корзину">
+          <span class="header-cart__icon" aria-hidden="true"></span>
+          <span class="header-cart__count" id="cart-count">0</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <div class="hero container">
+          <div class="hero--info">
+              <h1>С 18 марта -50% на избранные товары</h1>
+              <h2>Мы обновляем ассортимент и выводим из продажи часть позиций.</h2>
+              <p>Это значит, что некоторые ароматы покидают коллекцию навсегда. Если среди них есть ваши любимые — сейчас последняя возможность приобрести их по специальной цене.</p>
+              <a class="btn btn-link" href="catalog.html">За покупками</a>
+          </div>
+          <img src="img/main1.png" alt="Свечи Banka Home" class="rounded-media">
+      </div>
+
+      <div class="slider-section">
+          <div class="slider-container">
+              <div class="slider-wrapper" id="sliderWrapper">
+                  <div class="slide"><img src="img/slider1.png" alt="Фото 1" class="rounded-media"></div>
+                  <div class="slide"><img src="img/slider2.png" alt="Фото 2" class="rounded-media"></div>
+                  <div class="slide"><img src="img/slider3.png" alt="Фото 3" class="rounded-media"></div>
+                  <div class="slide"><img src="img/slider4.png" alt="Фото 4" class="rounded-media"></div>
+              </div>
+
+              <button class="slider-btn btn-prev" id="prevBtn" aria-label="Предыдущий слайд">‹</button>
+              <button class="slider-btn btn-next" id="nextBtn" aria-label="Следующий слайд">›</button>
+              <div class="dots" id="dots"></div>
+          </div>
+      </div>
+
+      <div class="heroo container" id="about">
+          <div class="heroo--info">
+              <h1>Мы создаём ароматные свечи, которые наполняют дом уютом и теплом.</h1>
+              <h2>Каждое изделие изготовлено с вниманием к деталям и любовью к атмосфере.</h2>
+              <p>Зажгите свечу — и превратите обычный вечер в особенный момент.</p>
+              <a class="btn btn-link" href="catalog.html">В каталог</a>
+          </div>
+          <img src="img/main3.png" alt="Ассортимент свечей" class="rounded-media">
+      </div>
+    </main>
+
+    <footer class="footer" id="contacts">
+      <div class="footer-container">
+        <div class="footer-menu">
+          <h3>Меню</h3>
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+            <li><a href="profile.html" data-profile-link-label>Профиль</a></li>
+            <li><a href="cart.html">Корзина</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contacts">
+          <h3>Контакты</h3>
+          <p>Email: Banka_home@company.com</p>
+          <p>Телефон: +7 937 236 73 24</p>
+          <p>Адрес: Москва, Рязанский пр-т, 99с2</p>
+          <p>Сайт сделан в рамках обучения, автор: Попова Полина</p>
+        </div>
+      </div>
+    </footer>
+    </div>
+<script src="dist/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "tsc": "tsc",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "version": "tsc --version"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
+cat package.json
+

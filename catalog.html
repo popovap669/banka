@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Каталог — Banka Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="container site-header"> 
+      <a class="logo" href="index.html">Banka Home</a>
+      <nav class="site-nav" id="site-nav">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li class="active"><a href="catalog.html">Каталог</a></li>
+          <li><a href="index.html#about">О нас</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="profile.html" data-profile-link-label>Профиль</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span><span></span>
+        </button>
+        <a class="header-cart" href="cart.html" aria-label="Перейти в корзину">
+          <span class="header-cart__icon" aria-hidden="true"></span>
+          <span class="header-cart__count" id="cart-count">0</span>
+        </a>
+      </div>
+    </header>
+
+    <main class="container catalog-page catalog-page--compact">
+      <section class="catalog-hero-simple">
+        <h1>Каталог</h1>
+      </section>
+
+      <section class="catalog-grid catalog-grid--showcase">
+        <article class="catalog-card catalog-card--showcase">
+          <div class="catalog-card__media">
+            <img src="img/product1.jpg" alt="Аромасвеча в граненом стакане" class="catalog-card__image rounded-media">
+          </div>
+          <h3>Аромасвеча<br>в граненом стакане</h3>
+          <p class="catalog-card__price">1200 ₽</p>
+          <button class="catalog-card__button" data-id="1">Добавить в корзину</button>
+        </article>
+        <article class="catalog-card catalog-card--showcase">
+          <div class="catalog-card__media">
+            <img src="img/product2.webp" alt="Декоративная свеча зимняя" class="catalog-card__image rounded-media">
+          </div>
+          <h3>Декоративная свеча<br>зимняя</h3>
+          <p class="catalog-card__price">900 ₽</p>
+          <button class="catalog-card__button" data-id="2">Добавить в корзину</button>
+        </article>
+        <article class="catalog-card catalog-card--showcase">
+          <div class="catalog-card__media">
+            <img src="img/product3.jpg" alt="Свеча градиент" class="catalog-card__image rounded-media">
+          </div>
+          <h3>Свеча градиент</h3>
+          <p class="catalog-card__price">700 ₽</p>
+          <button class="catalog-card__button" data-id="3">Добавить в корзину</button>
+        </article>
+        <article class="catalog-card catalog-card--showcase">
+          <div class="catalog-card__media">
+            <img src="img/product4.jpg" alt="Аромасвеча в белой банке" class="catalog-card__image rounded-media">
+          </div>
+          <h3>Аромасвеча<br>в белой банке</h3>
+          <p class="catalog-card__price">800 ₽</p>
+          <button class="catalog-card__button" data-id="4">Добавить в корзину</button>
+        </article>
+        <article class="catalog-card catalog-card--showcase">
+          <div class="catalog-card__media">
+            <img src="img/product5.jpg" alt="Натуральные свечи с травами" class="catalog-card__image rounded-media">
+          </div>
+          <h3>Натуральные свечи<br>с травами</h3>
+          <p class="catalog-card__price">1000 ₽</p>
+          <button class="catalog-card__button" data-id="5">Добавить в корзину</button>
+        </article>
+        <article class="catalog-card catalog-card--showcase">
+          <div class="catalog-card__media">
+            <img src="img/product6.webp" alt="Свечи лаванда и аметист" class="catalog-card__image rounded-media">
+          </div>
+          <h3>Свечи лаванда<br>и аметист</h3>
+          <p class="catalog-card__price">600 ₽</p>
+          <button class="catalog-card__button" data-id="6">Добавить в корзину</button>
+        </article>
+      </section>
+    </main>
+
+    <section class="catalog-benefits-strip">
+      <div class="container catalog-benefits-strip__inner">
+        <div class="catalog-benefit"><span>🚚</span><p>Быстрая доставка</p></div>
+        <div class="catalog-benefit"><span>🔒</span><p>Безопасная оплата</p></div>
+        <div class="catalog-benefit"><span>🌿</span><p>Натуральные ингредиенты</p></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-menu">
+          <h3>Меню</h3>
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+            <li><a href="profile.html" data-profile-link-label>Профиль</a></li>
+            <li><a href="cart.html">Корзина</a></li>
+          </ul>
+        </div>
+        <div class="footer-contacts">
+          <h3>Контакты</h3>
+          <p>Email: Banka_home@company.com</p>
+          <p>Телефон: +7 937 236 73 24</p>
+          <p>Адрес: Москва, Рязанский пр-т, 99с2</p>
+          <p>Сайт сделан в рамках обучения, автор: Попова Полина</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="dist/main.js"></script>
+</body>
+</html>

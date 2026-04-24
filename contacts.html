@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты — Banka Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="container site-header"> 
+      <a class="logo" href="index.html">Banka Home</a>
+      <nav class="site-nav" id="site-nav">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="index.html#about">О нас</a></li>
+          <li class="active"><a href="contacts.html">Контакты</a></li>
+          <li><a href="profile.html" data-profile-link-label>Профиль</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span><span></span>
+        </button>
+        <a class="header-cart" href="cart.html" aria-label="Перейти в корзину">
+          <span class="header-cart__icon" aria-hidden="true"></span>
+          <span class="header-cart__count" id="cart-count">0</span>
+        </a>
+      </div>
+    </header>
+
+    <main class="container page-section">
+      <section class="page-intro contact-intro">
+        <p class="page-kicker">Контакты</p>
+        <h1>Мы всегда рядом, чтобы помочь с выбором аромата</h1>
+        <p>Напишите нам, если хотите подобрать свечу в подарок, уточнить наличие или узнать больше о коллекции. Мы отвечаем бережно и по делу.</p>
+      </section>
+
+      <section class="contact-layout">
+        <article class="info-card">
+          <h2>Свяжитесь с нами</h2>
+          <p><strong>Email:</strong> Banka_home@company.com</p>
+          <p><strong>Телефон:</strong> +7 937 236 73 24</p>
+          <p><strong>Адрес:</strong> Москва, Рязанский пр-т, 99с2</p>
+          <p><strong>Время работы:</strong> ежедневно с 10:00 до 20:00</p>
+        </article>
+
+        <article class="info-card">
+          <h2>Социальные сети</h2>
+          <p>Следите за новыми ароматами, сезонными коллекциями и уютными подборками для дома.</p>
+          <div class="socials">
+            <a href="#" class="social-link" aria-label="Telegram"><span>✈</span><span>Telegram</span></a>
+            <a href="#" class="social-link" aria-label="VK"><span>VK</span><span>ВКонтакте</span></a>
+            <a href="#" class="social-link" aria-label="Instagram"><span>◎</span><span>Instagram</span></a>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-menu">
+          <h3>Меню</h3>
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+            <li><a href="profile.html" data-profile-link-label>Профиль</a></li>
+            <li><a href="cart.html">Корзина</a></li>
+          </ul>
+        </div>
+        <div class="footer-contacts">
+          <h3>Контакты</h3>
+          <p>Email: Banka_home@company.com</p>
+          <p>Телефон: +7 937 236 73 24</p>
+          <p>Адрес: Москва, Рязанский пр-т, 99с2</p>
+          <p>Сайт сделан в рамках обучения, автор: Попова Полина</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="dist/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "build": "npx tsc",
+    "watch": "npx tsc --watch",
+    "init": "npx tsc --init"
+  }
+}
